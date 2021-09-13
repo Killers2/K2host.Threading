@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Description>A Windows based thread manager based on cpu cores with a threaded callback timer.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>K2host, Thread, Threading, Multi Threading, MTA, Thread Manager</PackageTags>
+    <PackageProjectUrl>https://github.com/Killers2/K2host.Threading</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Killers2/K2host.Threading</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>Icon128.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -11,6 +21,17 @@
 
   <ItemGroup>
     <ProjectReference Include="..\K2host.Core\K2host.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\K2host.Pictures\Icon128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\K2host.Core\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
