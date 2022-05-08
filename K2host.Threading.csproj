@@ -12,12 +12,13 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>Icon128.png</PackageIcon>
     <PackageIconUrl />
-    <Version>1.0.1</Version>
+    <Version>2.0.6</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <Optimize>true</Optimize>
     <DefineConstants>TRACE</DefineConstants>
+    <OutputPath>D:\Development\K2host Works\K2host.Packages\K2host.Threading\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
